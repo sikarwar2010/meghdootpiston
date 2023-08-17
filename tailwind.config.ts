@@ -9,10 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+        'hero-pattern': "url('https://res.cloudinary.com/dfvtnrisi/image/upload/v1692290990/modern-world-map-background_1035-7605_zdxrgd.avif')",
+      }
     },
   },
   plugins: [],

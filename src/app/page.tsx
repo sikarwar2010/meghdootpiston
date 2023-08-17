@@ -1,4 +1,5 @@
 import DemoCarousel from "@/components/Home/DemoCarousel";
+import GlobalReach from "@/components/Home/GlobalReach";
 import HomeAbout from "@/components/Home/HomeAbout";
 import HomeEvent from "@/components/Home/HomeEvent";
 import HomeProduct from "@/components/Home/HomeProduct";
@@ -17,6 +18,7 @@ export default function Home() {
 			<HomeAbout />
 			<HomeEvent />
 			<Mission />
+			<GlobalReach/>
 			<HomeProduct />
 		</main>
 	);
