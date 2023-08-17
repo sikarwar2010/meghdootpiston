@@ -1,6 +1,6 @@
-import { IUsers } from "@/types";
-import Link from "next/link";
+'use client'
 import React from "react";
+import { IUsers } from "@/types";
 
 const users: IUsers[] = [
 	{

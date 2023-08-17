@@ -21,7 +21,7 @@ const AboutMeghdoot = () => {
                                 <h2 className="mt-4 text-center text-2xl font-bold dark:text-white md:text-4xl capitalize">
                                     <q>A complete solution for your engine power</q>
                                 </h2>
-                                <p className="py-8 text-slate-900 dark:text-gray-300 text-justify overflow-hidden ">
+                                <p className="py-8 text-slate-900 dark:text-gray-300 text-justify">
                                     Meghdoot Pistons Pvt. Ltd. (India) is a leading manufacturer
                                     and exporter, Ours diverse portfolio includes extensive range
                                     of Pistons, Liners, Rings and other Engine parts. Meghdoot
