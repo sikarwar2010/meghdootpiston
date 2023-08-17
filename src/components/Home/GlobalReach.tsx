@@ -18,7 +18,7 @@ const GlobalReach = () => {
 					Global Reach
 				</h1>
 				<p className="py-2 text-slate-900 dark:text-gray-300 text-justify">
-					Meghdoot Piston Pvt Ltd global footprint includes more than 60
+					Meghdoot Piston Pvt Ltd global footprint includes more than 20
 					locations across four continents (South America, Far East Asia,
 					Europe, East & West Africa and CIS Countries).
 				</p>
