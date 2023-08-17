@@ -23,16 +23,14 @@ const GlobalReach = () => {
 					Europe, East & West Africa and CIS Countries).
 				</p>
 				<p className="py-2 text-slate-900 dark:text-gray-300 text-justify text-sm">
-					Exporting to over <span className="font-bold text-lg">60</span>{" "}
+					Exporting to over <span className="font-bold text-lg">20</span>{" "}
 					Countries
 				</p>
 				<p className="py-2 text-slate-900 dark:text-gray-300 text-justify text-sm">
-					Selling over <span className="font-bold text-lg">2 Millions</span>{" "}
+					Selling over <span className="font-bold text-lg">70000 pcs Annually</span>{" "}
 					Engine Parts
 				</p>
-				<p className="py-2 text-slate-900 dark:text-gray-300 text-justify text-sm">
-					Across <span className="font-bold text-lg">200+</span> Distributors
-				</p>
+				
 			</div>
 		</div>
 	);
