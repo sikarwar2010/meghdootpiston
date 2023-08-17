@@ -49,7 +49,7 @@ const HomeProduct = () => {
 						{products.map((product) => (
 							<div
 								key={product.id}
-								className="md:flex bg-slate-100 rounded-xl shadow-lg p-4 md:p-0 dark:bg-slate-800 cursor-pointer transition duration-300 ease-in-out hover:scale-110"
+								className="md:flex bg-slate-100 rounded-xl shadow-lg p-4 md:p-0 dark:bg-slate-800 cursor-pointer hover:scale-105 transition-transform duration-500 ease-in-out"
 							>
 								<Image
 									className="w-72 h-auto object-cover object-center rounded-xl md:w-72 md:h-auto mx-auto"

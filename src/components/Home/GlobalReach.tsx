@@ -27,10 +27,10 @@ const GlobalReach = () => {
 					Countries
 				</p>
 				<p className="py-2 text-slate-900 dark:text-gray-300 text-justify text-sm">
-					Selling over <span className="font-bold text-lg">70000 pcs Annually</span>{" "}
-					Engine Parts
+					Selling over{" "}
+					<span className="font-bold text-lg">70000 pcs Annually</span> Engine
+					Parts
 				</p>
-				
 			</div>
 		</div>
 	);

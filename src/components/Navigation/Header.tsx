@@ -36,6 +36,7 @@ const Header = () => {
 						height={70}
 						className="cursor-pointer px-2"
 					/>
+					<span className="text-lg cursor-pointer">Meghdoot Pistons Pvt Ltd</span>
 				</div>
 				<div className="hidden md:flex">
 					<ul className="flex items-center space-x-4 text-sm uppercase">
