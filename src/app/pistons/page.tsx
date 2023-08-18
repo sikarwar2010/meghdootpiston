@@ -4,6 +4,7 @@ import PistonCarousel from '@/components/Products/PistonCarousel'
 import PistonInfo from '@/components/Products/PistonInfo'
 import TypePistons from '@/components/Products/TypePistons'
 import CustomerList from '@/components/Products/CustomerList'
+import CustomerData from '@/components/Products/CustomerData'
 
 export const metadata: Metadata = {
     title: 'Pistons',
@@ -18,6 +19,7 @@ const Pistons = () => {
                 <PistonInfo />
                 <TypePistons />
                 <CustomerList />
+                <CustomerData />
             </main>
         </div>
     )
