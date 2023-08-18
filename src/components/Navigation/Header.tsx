@@ -488,7 +488,6 @@ const Header = () => {
 									</Transition>
 								</Menu>
 							</li>
-							
 						</ul>
 					</div>
 				</Fragment>
