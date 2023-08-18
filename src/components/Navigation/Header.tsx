@@ -34,7 +34,7 @@ const Header = () => {
 						alt="meghdoot logo"
 						width={70}
 						height={70}
-						className="cursor-pointer px-2"
+						className="cursor-pointer px-2 hidden md:flex"
 					/>
 					<span className="text-lg cursor-pointer">Meghdoot Pistons Pvt Ltd</span>
 				</div>
@@ -142,7 +142,7 @@ const Header = () => {
 						</li>
 					</ul>
 				</div>
-				<div className="flex ml-32">
+				<div className="hidden md:flex items-center justify-end">
                     <ul className=" space-x-2 px-2">
                         <Menu as="div" className="relative inline-block text-left">
 							<div>
@@ -164,7 +164,7 @@ const Header = () => {
 								leaveFrom="transform opacity-100 scale-100"
 								leaveTo="transform opacity-0 scale-95"
 							>
-								<Menu.Items className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+								<Menu.Items className="absolute right-0 z-10 mt-2 w-36 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
 									<div className="py-1">
 										<Menu.Item>
 											{({ active }) => (
@@ -312,7 +312,7 @@ const Header = () => {
                                         leaveFrom="transform opacity-100 scale-100"
                                         leaveTo="transform opacity-0 scale-95"
                                     >
-                                        <Menu.Items className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                                        <Menu.Items className="absolute right-0 z-10 mt-2 w-36 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                                             <div className="py-1">
                                                 <Menu.Item>
                                                     {({ active }) => (
@@ -386,10 +386,109 @@ const Header = () => {
 								<Link href={"/contact"}>Contact Us</Link>
 							</li>
 							<li>
-								<button className="bg-yellow-500 cursor-pointer text-white px-4 py-2 rounded-md">
-									Sign Up
-								</button>
+								<Menu as="div" className="relative inline-block text-left">
+									<div>
+										<Menu.Button className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-cyan-700 text-yellow-500 px-3 py-2 text-lg font-semibold shadow-sm">
+											Language
+											<ChevronDownIcon
+												className="-mr-1 h-5 w-5 text-gray-400"
+												aria-hidden="true"
+											/>
+										</Menu.Button>
+									</div>
+
+									<Transition
+										as={Fragment}
+										enter="transition ease-out duration-100"
+										enterFrom="transform opacity-0 scale-95"
+										enterTo="transform opacity-100 scale-100"
+										leave="transition ease-in duration-75"
+										leaveFrom="transform opacity-100 scale-100"
+										leaveTo="transform opacity-0 scale-95"
+									>
+										<Menu.Items className="absolute right-0 z-10 mt-2 w-36 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+											<div className="py-1">
+												<Menu.Item>
+													{({ active }) => (
+														<a
+															href="#"
+															className={classNames(
+																active
+																	? "bg-gray-100 text-gray-900"
+																	: "text-gray-700",
+																"block px-4 py-2 text-sm"
+															)}
+														>
+															English
+														</a>
+													)}
+												</Menu.Item>
+												<Menu.Item>
+													{({ active }) => (
+														<a
+															href="#"
+															className={classNames(
+																active
+																	? "bg-gray-100 text-gray-900"
+																	: "text-gray-700",
+																"block px-4 py-2 text-sm"
+															)}
+														>
+															Russian
+														</a>
+													)}
+												</Menu.Item>
+												<Menu.Item>
+													{({ active }) => (
+														<a
+															href="#"
+															className={classNames(
+																active
+																	? "bg-gray-100 text-gray-900"
+																	: "text-gray-700",
+																"block px-4 py-2 text-sm"
+															)}
+														>
+															Urdu
+														</a>
+													)}
+												</Menu.Item>
+												<Menu.Item>
+													{({ active }) => (
+														<a
+															href="#"
+															className={classNames(
+																active
+																	? "bg-gray-100 text-gray-900"
+																	: "text-gray-700",
+																"block px-4 py-2 text-sm"
+															)}
+														>
+															Spanish
+														</a>
+													)}
+												</Menu.Item>
+												<Menu.Item>
+													{({ active }) => (
+														<a
+															href="#"
+															className={classNames(
+																active
+																	? "bg-gray-100 text-gray-900"
+																	: "text-gray-700",
+																"block px-4 py-2 text-sm"
+															)}
+														>
+															Persian
+														</a>
+													)}
+												</Menu.Item>
+											</div>
+										</Menu.Items>
+									</Transition>
+								</Menu>
 							</li>
+							
 						</ul>
 					</div>
 				</Fragment>
