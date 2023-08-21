@@ -141,7 +141,7 @@ const Header = () => {
 							<Link href={"/contact"}>Contact Us</Link>
 						</li>
 					</ul>
-				</div>
+				</div> 
 				<div className="hidden md:flex items-center justify-end">
                     <ul className=" space-x-2 px-2">
                         <Menu as="div" className="relative inline-block text-left">
@@ -249,7 +249,7 @@ const Header = () => {
 				</div>
 
 				{/* mobile button */}
-				<div className="md:hidden px-5">
+			 <div className="md:hidden px-5">
 					<button
 						onClick={toggleMobileMenu}
 						className="dark:text-white focus:outline-none"
@@ -263,7 +263,7 @@ const Header = () => {
 				</div>
 			</nav>
 			{/* mobile menus  */}
-			{isMobileMenuOpen && (
+			 {isMobileMenuOpen && (
 				<Fragment>
 					<div className="md:hidden absolute z-10 w-72 bg-cyan-700 dark:bg-black h-full top-0 left-0">
 						<ul className="flex flex-col items-center space-y-10 px-10 py-5 h-full uppercase">
