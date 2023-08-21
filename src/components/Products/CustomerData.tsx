@@ -58,7 +58,7 @@ const CustomerData = () => {
 				<h1 className="mt-4 text-center text-2xl font-bold dark:text-white md:text-4xl capitalize mb-5">
 					Air Brake Compressors, Air & Gas Compressors & Refrigeration
 				</h1>
-				<div className="grid lg:grid-rows-6 lg:grid-flow-col md:grid-rows-3 md:grid-flow-col gap-4 auto-cols-auto py-5 px-10 overflow-hidden">
+				<div className="grid lg:grid-cols-6 md:grid-cols-4 grid-cols-2 gap-8 py-5 px-5 overflow-hidden">
 					{customers.map((item) => (
 						<div key={item.id}>
 							<ul className="space-y-3 text-sm overflow-hidden">
