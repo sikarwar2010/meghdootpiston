@@ -34,8 +34,8 @@ const Header = () => {
 	};
 
 	return (
-		<header className="bg-[#034694]">
-			<nav className="lg:container mx-auto z-50 w-full h-20 flex items-center justify-between text-white">
+		<header className="bg-[#034694] sticky z-50 top-0">
+			<nav className=" lg:container mx-auto relative w-full h-20 flex items-center justify-between text-white">
 				{/* desktops menus */}
 				<div className="flex items-center space-x-2 md:items-center">
 					<Image
